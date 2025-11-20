@@ -33,3 +33,4 @@ D:\FPTPolytechnic\GAM106 - Lập trình Game Back-End\Lab\Lab1\Lab1\obj\Debug\ne
 D:\FPTPolytechnic\GAM106 - Lập trình Game Back-End\Lab\Lab1\Lab1\obj\Debug\net8.0\Lab1.pdb
 D:\FPTPolytechnic\GAM106 - Lập trình Game Back-End\Lab\Lab1\Lab1\obj\Debug\net8.0\Lab1.genruntimeconfig.cache
 D:\FPTPolytechnic\GAM106 - Lập trình Game Back-End\Lab\Lab1\Lab1\obj\Debug\net8.0\ref\Lab1.dll
+D:\FPTPolytechnic\GAM106 - Lập trình Game Back-End\Lab\Lab1\Lab1\obj\Debug\net8.0\Lab1.sourcelink.json

@@ -1,0 +1,390 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|d:\\fptpolytechnic\\gam106 - l\u1EADp tr\u00ECnh game back-end\\lab\\lab23\\lab2\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|solutionrelative:lab2\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|d:\\fptpolytechnic\\gam106 - l\u1EADp tr\u00ECnh game back-end\\lab\\lab23\\lab2\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|solutionrelative:lab2\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|d:\\fptpolytechnic\\gam106 - l\u1EADp tr\u00ECnh game back-end\\lab\\lab23\\lab2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|solutionrelative:lab2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|d:\\fptpolytechnic\\gam106 - l\u1EADp tr\u00ECnh game back-end\\lab\\lab23\\lab2\\controllers\\apigamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|solutionrelative:lab2\\controllers\\apigamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|d:\\fptpolytechnic\\gam106 - l\u1EADp tr\u00ECnh game back-end\\lab\\lab23\\lab2\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|solutionrelative:lab2\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|d:\\fptpolytechnic\\gam106 - l\u1EADp tr\u00ECnh game back-end\\lab\\lab23\\lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|solutionrelative:lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Migrations\\20251120101742_..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab2\\Migrations\\20251120101742_..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Migrations\\20251120101424_adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab2\\Migrations\\20251120101424_adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|d:\\fptpolytechnic\\gam106 - l\u1EADp tr\u00ECnh game back-end\\lab\\lab23\\lab2\\models\\emailsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|solutionrelative:lab2\\models\\emailsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|d:\\fptpolytechnic\\gam106 - l\u1EADp tr\u00ECnh game back-end\\lab\\lab23\\lab2\\models\\gamelevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|solutionrelative:lab2\\models\\gamelevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|d:\\fptpolytechnic\\gam106 - l\u1EADp tr\u00ECnh game back-end\\lab\\lab23\\lab2\\models\\emailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|solutionrelative:lab2\\models\\emailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|d:\\fptpolytechnic\\gam106 - l\u1EADp tr\u00ECnh game back-end\\lab\\lab23\\lab2\\dto\\userinfomationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|solutionrelative:lab2\\dto\\userinfomationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|d:\\fptpolytechnic\\gam106 - l\u1EADp tr\u00ECnh game back-end\\lab\\lab23\\lab2\\models\\responseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|solutionrelative:lab2\\models\\responseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Migrations\\20251120095328_AddDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab2\\Migrations\\20251120095328_AddDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|d:\\fptpolytechnic\\gam106 - l\u1EADp tr\u00ECnh game back-end\\lab\\lab23\\lab2\\dto\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|solutionrelative:lab2\\dto\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|d:\\fptpolytechnic\\gam106 - l\u1EADp tr\u00ECnh game back-end\\lab\\lab23\\lab2\\dto\\checkotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|solutionrelative:lab2\\dto\\checkotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|d:\\fptpolytechnic\\gam106 - l\u1EADp tr\u00ECnh game back-end\\lab\\lab23\\lab2\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|solutionrelative:lab2\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|d:\\fptpolytechnic\\gam106 - l\u1EADp tr\u00ECnh game back-end\\lab\\lab23\\lab2\\models\\quession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|solutionrelative:lab2\\models\\quession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|d:\\fptpolytechnic\\gam106 - l\u1EADp tr\u00ECnh game back-end\\lab\\lab23\\lab2\\models\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|solutionrelative:lab2\\models\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|d:\\fptpolytechnic\\gam106 - l\u1EADp tr\u00ECnh game back-end\\lab\\lab23\\lab2\\migrations\\20251110143230_add-models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|solutionrelative:lab2\\migrations\\20251110143230_add-models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|d:\\fptpolytechnic\\gam106 - l\u1EADp tr\u00ECnh game back-end\\lab\\lab23\\lab2\\migrations\\20251110142157_dbinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|solutionrelative:lab2\\migrations\\20251110142157_dbinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|d:\\fptpolytechnic\\gam106 - l\u1EADp tr\u00ECnh game back-end\\lab\\lab23\\lab2\\migrations\\20251110144127_addusertodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D905D392-785D-48E7-B495-37A152F775DA}|Lab2\\Lab2.csproj|solutionrelative:lab2\\migrations\\20251110144127_addusertodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20251120101742_..cs",
+              "DocumentMoniker": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Migrations\\20251120101742_..cs",
+              "RelativeDocumentMoniker": "Lab2\\Migrations\\20251120101742_..cs",
+              "ToolTip": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Migrations\\20251120101742_..cs",
+              "RelativeToolTip": "Lab2\\Migrations\\20251120101742_..cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T10:17:42.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20251120101424_adduser.cs",
+              "DocumentMoniker": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Migrations\\20251120101424_adduser.cs",
+              "RelativeDocumentMoniker": "Lab2\\Migrations\\20251120101424_adduser.cs",
+              "ToolTip": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Migrations\\20251120101424_adduser.cs",
+              "RelativeToolTip": "Lab2\\Migrations\\20251120101424_adduser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T10:14:24.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20251120095328_AddDTO.cs",
+              "DocumentMoniker": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Migrations\\20251120095328_AddDTO.cs",
+              "RelativeDocumentMoniker": "Lab2\\Migrations\\20251120095328_AddDTO.cs",
+              "ToolTip": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Migrations\\20251120095328_AddDTO.cs",
+              "RelativeToolTip": "Lab2\\Migrations\\20251120095328_AddDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T09:53:28.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ResetPasswordDTO.cs",
+              "DocumentMoniker": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\DTO\\ResetPasswordDTO.cs",
+              "RelativeDocumentMoniker": "Lab2\\DTO\\ResetPasswordDTO.cs",
+              "ToolTip": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\DTO\\ResetPasswordDTO.cs",
+              "RelativeToolTip": "Lab2\\DTO\\ResetPasswordDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T09:49:47.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CheckOTPDTO.cs",
+              "DocumentMoniker": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\DTO\\CheckOTPDTO.cs",
+              "RelativeDocumentMoniker": "Lab2\\DTO\\CheckOTPDTO.cs",
+              "ToolTip": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\DTO\\CheckOTPDTO.cs",
+              "RelativeToolTip": "Lab2\\DTO\\CheckOTPDTO.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T09:40:46.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Service\\EmailService.cs",
+              "RelativeDocumentMoniker": "Lab2\\Service\\EmailService.cs",
+              "ToolTip": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Service\\EmailService.cs",
+              "RelativeToolTip": "Lab2\\Service\\EmailService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAIA3wCIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T09:19:27.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmailRequest.cs",
+              "DocumentMoniker": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Models\\EmailRequest.cs",
+              "RelativeDocumentMoniker": "Lab2\\Models\\EmailRequest.cs",
+              "ToolTip": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Models\\EmailRequest.cs",
+              "RelativeToolTip": "Lab2\\Models\\EmailRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T09:17:59.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserInfomationDTO.cs",
+              "DocumentMoniker": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\DTO\\UserInfomationDTO.cs",
+              "RelativeDocumentMoniker": "Lab2\\DTO\\UserInfomationDTO.cs",
+              "ToolTip": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\DTO\\UserInfomationDTO.cs",
+              "RelativeToolTip": "Lab2\\DTO\\UserInfomationDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:58:48.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmailSetting.cs",
+              "DocumentMoniker": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Models\\EmailSetting.cs",
+              "RelativeDocumentMoniker": "Lab2\\Models\\EmailSetting.cs",
+              "ToolTip": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Models\\EmailSetting.cs",
+              "RelativeToolTip": "Lab2\\Models\\EmailSetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T03:13:11.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "APIGameController.cs",
+              "DocumentMoniker": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Controllers\\APIGameController.cs",
+              "RelativeDocumentMoniker": "Lab2\\Controllers\\APIGameController.cs",
+              "ToolTip": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Controllers\\APIGameController.cs",
+              "RelativeToolTip": "Lab2\\Controllers\\APIGameController.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAiwMQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T15:17:47.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ResponseApi.cs",
+              "DocumentMoniker": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Models\\ResponseApi.cs",
+              "RelativeDocumentMoniker": "Lab2\\Models\\ResponseApi.cs",
+              "ToolTip": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Models\\ResponseApi.cs",
+              "RelativeToolTip": "Lab2\\Models\\ResponseApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T15:10:15.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20251110144127_addUsertoDb.cs",
+              "DocumentMoniker": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Migrations\\20251110144127_addUsertoDb.cs",
+              "RelativeDocumentMoniker": "Lab2\\Migrations\\20251110144127_addUsertoDb.cs",
+              "ToolTip": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Migrations\\20251110144127_addUsertoDb.cs",
+              "RelativeToolTip": "Lab2\\Migrations\\20251110144127_addUsertoDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T14:41:28.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Lab2\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Lab2\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T14:35:44.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20251110143230_Add-Models.cs",
+              "DocumentMoniker": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Migrations\\20251110143230_Add-Models.cs",
+              "RelativeDocumentMoniker": "Lab2\\Migrations\\20251110143230_Add-Models.cs",
+              "ToolTip": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Migrations\\20251110143230_Add-Models.cs",
+              "RelativeToolTip": "Lab2\\Migrations\\20251110143230_Add-Models.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T14:32:30.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Quession.cs",
+              "DocumentMoniker": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Models\\Quession.cs",
+              "RelativeDocumentMoniker": "Lab2\\Models\\Quession.cs",
+              "ToolTip": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Models\\Quession.cs",
+              "RelativeToolTip": "Lab2\\Models\\Quession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T14:27:46.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Region.cs",
+              "DocumentMoniker": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Models\\Region.cs",
+              "RelativeDocumentMoniker": "Lab2\\Models\\Region.cs",
+              "ToolTip": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Models\\Region.cs",
+              "RelativeToolTip": "Lab2\\Models\\Region.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T14:26:25.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameLevel.cs",
+              "DocumentMoniker": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Models\\GameLevel.cs",
+              "RelativeDocumentMoniker": "Lab2\\Models\\GameLevel.cs",
+              "ToolTip": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Models\\GameLevel.cs",
+              "RelativeToolTip": "Lab2\\Models\\GameLevel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T14:24:37.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20251110142157_DbInit.cs",
+              "DocumentMoniker": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Migrations\\20251110142157_DbInit.cs",
+              "RelativeDocumentMoniker": "Lab2\\Migrations\\20251110142157_DbInit.cs",
+              "ToolTip": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Migrations\\20251110142157_DbInit.cs",
+              "RelativeToolTip": "Lab2\\Migrations\\20251110142157_DbInit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T14:21:58.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\appsettings.json",
+              "RelativeDocumentMoniker": "Lab2\\appsettings.json",
+              "ToolTip": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\appsettings.json",
+              "RelativeToolTip": "Lab2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-10T14:03:12.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Program.cs",
+              "RelativeDocumentMoniker": "Lab2\\Program.cs",
+              "ToolTip": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Program.cs",
+              "RelativeToolTip": "Lab2\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T14:00:56.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Lab2\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Lab2\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAQwFMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T13:58:59.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Lab2\\appsettings.Development.json",
+              "ToolTip": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab23\\Lab2\\appsettings.Development.json",
+              "RelativeToolTip": "Lab2\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-10T13:53:02.15Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

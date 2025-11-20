@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97139335-D073-4FE7-BE97-447711B1613F}|Lab1\\Lab1.csproj|d:\\fptpolytechnic\\gam106 - l\u1EADp tr\u00ECnh game back-end\\lab\\lab1\\lab1\\controllers\\apigamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97139335-D073-4FE7-BE97-447711B1613F}|Lab1\\Lab1.csproj|solutionrelative:lab1\\controllers\\apigamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{97139335-D073-4FE7-BE97-447711B1613F}|Lab1\\Lab1.csproj|d:\\fptpolytechnic\\gam106 - l\u1EADp tr\u00ECnh game back-end\\lab\\lab1\\lab1\\models\\gamemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97139335-D073-4FE7-BE97-447711B1613F}|Lab1\\Lab1.csproj|solutionrelative:lab1\\models\\gamemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97139335-D073-4FE7-BE97-447711B1613F}|Lab1\\Lab1.csproj|d:\\fptpolytechnic\\gam106 - l\u1EADp tr\u00ECnh game back-end\\lab\\lab1\\lab1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97139335-D073-4FE7-BE97-447711B1613F}|Lab1\\Lab1.csproj|solutionrelative:lab1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97139335-D073-4FE7-BE97-447711B1613F}|Lab1\\Lab1.csproj|d:\\fptpolytechnic\\gam106 - l\u1EADp tr\u00ECnh game back-end\\lab\\lab1\\lab1\\controllers\\apigamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97139335-D073-4FE7-BE97-447711B1613F}|Lab1\\Lab1.csproj|solutionrelative:lab1\\controllers\\apigamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,6 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab1\\Lab1\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Lab1\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab1\\Lab1\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Lab1\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T05:53:39.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "GameModel.cs",
               "DocumentMoniker": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab1\\Lab1\\Models\\GameModel.cs",
               "RelativeDocumentMoniker": "Lab1\\Models\\GameModel.cs",
@@ -35,13 +52,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "APIGameController.cs",
               "DocumentMoniker": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab1\\Lab1\\Controllers\\APIGameController.cs",
               "RelativeDocumentMoniker": "Lab1\\Controllers\\APIGameController.cs",
               "ToolTip": "D:\\FPTPolytechnic\\GAM106 - L\u1EADp tr\u00ECnh Game Back-End\\Lab\\Lab1\\Lab1\\Controllers\\APIGameController.cs",
               "RelativeToolTip": "Lab1\\Controllers\\APIGameController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAMwBUAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-10T13:28:34.538Z",
               "EditorCaption": ""
