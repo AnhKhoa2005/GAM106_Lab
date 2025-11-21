@@ -55,8 +55,13 @@ namespace Lab2.Data
                 );
 
             var hasher = new PasswordHasher<ApplicationUser>();
+            var password = hasher.HashPassword(null!, "User@1234"); // Dùng một mật khẩu chung an toàn
+            var securePassword2 = hasher.HashPassword(null!, "Anhkhoa2005@"); // Mật khẩu cho user cũ
+            var securePassword1 = hasher.HashPassword(null!, "Anhkhoa2005"); // Mật khẩu cho user cũ
 
+            // KHỐI APPLICATIONUSER ĐÃ CẬP NHẬT: BAO GỒM 10 USER
             builder.Entity<ApplicationUser>().HasData(
+                // 3 User CŨ
                 new ApplicationUser
                 {
                     Id = "001",
@@ -65,13 +70,12 @@ namespace Lab2.Data
                     Email = "tdakhoa14012005@gmail.com",
                     NormalizedEmail = "TDAKHOA14012005@GMAIL.COM",
                     EmailConfirmed = true,
-                    PasswordHash = hasher.HashPassword(null!, "Anhkhoa2005"),
+                    PasswordHash = securePassword1,
                     SecurityStamp = Guid.NewGuid().ToString(),
-
                     Name = "Anh Khoa",
                     RegionId = 1,
                     IsDeleted = false,
-                     OTP = "initial"
+                    OTP = "initial"
                 },
                 new ApplicationUser
                 {
@@ -81,11 +85,132 @@ namespace Lab2.Data
                     Email = "hatakeiku450@gmail.com",
                     NormalizedEmail = "HATAKEIKU450@GMAIL.COM",
                     EmailConfirmed = true,
-                    PasswordHash = hasher.HashPassword(null!, "Anhkhoa2005@"),
+                    PasswordHash = securePassword2,
                     SecurityStamp = Guid.NewGuid().ToString(),
-
                     Name = "Anh Khoa 2",
                     RegionId = 2,
+                    IsDeleted = false,
+                    OTP = "initial"
+                },
+                new ApplicationUser
+                {
+                    Id = "003",
+                    UserName = "anhkhoa123@gmail.com",
+                    NormalizedUserName = "ANHKHOA123@GMAIL.COM",
+                    Email = "anhkhoa123@gmail.com",
+                    NormalizedEmail = "ANHKHOA123@GMAIL.COM",
+                    EmailConfirmed = true,
+                    PasswordHash = securePassword2,
+                    SecurityStamp = Guid.NewGuid().ToString(),
+                    Name = "Anh Khoa 3",
+                    RegionId = 3, // Dùng Region 3 mới
+                    IsDeleted = false,
+                    OTP = "initial"
+                },
+
+                // 7 User MỚI
+                new ApplicationUser
+                {
+                    Id = "004",
+                    UserName = "user4@example.com",
+                    NormalizedUserName = "USER4@EXAMPLE.COM",
+                    Email = "user4@example.com",
+                    NormalizedEmail = "USER4@EXAMPLE.COM",
+                    EmailConfirmed = true,
+                    PasswordHash = password,
+                    SecurityStamp = Guid.NewGuid().ToString(),
+                    Name = "Người dùng 4",
+                    RegionId = 1,
+                    IsDeleted = false,
+                    OTP = "initial"
+                },
+                new ApplicationUser
+                {
+                    Id = "005",
+                    UserName = "user5@example.com",
+                    NormalizedUserName = "USER5@EXAMPLE.COM",
+                    Email = "user5@example.com",
+                    NormalizedEmail = "USER5@EXAMPLE.COM",
+                    EmailConfirmed = true,
+                    PasswordHash = password,
+                    SecurityStamp = Guid.NewGuid().ToString(),
+                    Name = "Người dùng 5",
+                    RegionId = 2,
+                    IsDeleted = false,
+                    OTP = "initial"
+                },
+                new ApplicationUser
+                {
+                    Id = "006",
+                    UserName = "user6@example.com",
+                    NormalizedUserName = "USER6@EXAMPLE.COM",
+                    Email = "user6@example.com",
+                    NormalizedEmail = "USER6@EXAMPLE.COM",
+                    EmailConfirmed = true,
+                    PasswordHash = password,
+                    SecurityStamp = Guid.NewGuid().ToString(),
+                    Name = "Người dùng 6",
+                    RegionId = 3,
+                    IsDeleted = false,
+                    OTP = "initial"
+                },
+                new ApplicationUser
+                {
+                    Id = "007",
+                    UserName = "user7@example.com",
+                    NormalizedUserName = "USER7@EXAMPLE.COM",
+                    Email = "user7@example.com",
+                    NormalizedEmail = "USER7@EXAMPLE.COM",
+                    EmailConfirmed = true,
+                    PasswordHash = password,
+                    SecurityStamp = Guid.NewGuid().ToString(),
+                    Name = "Người dùng 7",
+                    RegionId = 1,
+                    IsDeleted = false,
+                    OTP = "initial"
+                },
+                new ApplicationUser
+                {
+                    Id = "008",
+                    UserName = "user8@example.com",
+                    NormalizedUserName = "USER8@EXAMPLE.COM",
+                    Email = "user8@example.com",
+                    NormalizedEmail = "USER8@EXAMPLE.COM",
+                    EmailConfirmed = true,
+                    PasswordHash = password,
+                    SecurityStamp = Guid.NewGuid().ToString(),
+                    Name = "Người dùng 8",
+                    RegionId = 2,
+                    IsDeleted = false,
+                    OTP = "initial"
+                },
+                new ApplicationUser
+                {
+                    Id = "009",
+                    UserName = "user9@example.com",
+                    NormalizedUserName = "USER9@EXAMPLE.COM",
+                    Email = "user9@example.com",
+                    NormalizedEmail = "USER9@EXAMPLE.COM",
+                    EmailConfirmed = true,
+                    PasswordHash = password,
+                    SecurityStamp = Guid.NewGuid().ToString(),
+                    Name = "Người dùng 9",
+                    RegionId = 3,
+                    IsDeleted = false,
+                    OTP = "initial"
+                },
+                new ApplicationUser
+                {
+                    Id = "010",
+                    UserName = "user10@example.com",
+                    NormalizedUserName = "USER10@EXAMPLE.COM",
+                    Email = "user10@example.com",
+                    NormalizedEmail = "USER10@EXAMPLE.COM",
+                    EmailConfirmed = true,
+                    PasswordHash = password,
+                    SecurityStamp = Guid.NewGuid().ToString(),
+                    Name = "Người dùng 10",
+                    RegionId = 1,
                     IsDeleted = false,
                     OTP = "initial"
                 }

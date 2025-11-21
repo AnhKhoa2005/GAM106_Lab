@@ -3,6 +3,7 @@ using Lab2.DTO;
 using Lab2.Models;
 using Lab2.Service;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -85,6 +86,131 @@ namespace Lab2.Controllers
                 _response.Notification = "Lỗi";
                 _response.Data = ex.Message;
                 return BadRequest(_response);
+            }
+        }
+        [HttpGet("GetUserById/{userId}")]
+        public async Task<IActionResult> GetUserById(string userId)
+        {
+            try
+            {
+                var user = await _userManager.FindByIdAsync(userId);
+                if (user == null)
+                {
+                    _response.IsSuccess = false;
+                    _response.Notification = "Không tìm thấy người dùng";
+                    _response.Data = null;
+                    return NotFound(_response);
+                }
+
+                // Tạo object chỉ chứa thông tin cần thiết (KHÔNG BAO GỒM PASSWORD)
+                var userInfo = new
+                {
+                    user.Id,
+                    user.Email,
+                    user.Name,
+                    user.Avatar,
+                    user.RegionId,
+                    user.IsDeleted,
+                    user.UserName
+                    // KHÔNG trả về PasswordHash vì lý do bảo mật
+                };
+
+                _response.IsSuccess = true;
+                _response.Notification = "Lấy thông tin người dùng thành công";
+                _response.Data = userInfo;
+                return Ok(_response);
+            }
+            catch (Exception ex)
+            {
+                _response.IsSuccess = false;
+                _response.Notification = "Lỗi";
+                _response.Data = ex.Message;
+                return BadRequest(_response);
+            }
+        }
+
+        [HttpPost("Register")]
+        public async Task<IActionResult> Register(RegisterDTO registerDTO)
+        {
+            try
+            {
+                // 1. Tạo đối tượng ApplicationUser từ DTO
+                var user = new ApplicationUser
+                {
+                    Email = registerDTO.Email,
+                    UserName = registerDTO.Email, // Thường dùng Email làm UserName
+                    Name = registerDTO.Name,
+                    Avatar = registerDTO.LinkAvatar,
+                    RegionId = registerDTO.RegionId
+                };
+
+                // 2. Gọi hàm tạo người dùng và lưu vào database
+                var result = await _userManager.CreateAsync(user, registerDTO.Password);
+
+                if (result.Succeeded)
+                {
+                    // Đăng ký thành công
+                    _response.IsSuccess = true;
+                    _response.Notification = "Đăng ký thành công";
+                    _response.Data = user; // Trả về thông tin người dùng đã tạo
+                    return Ok(_response); // Trả về HTTP 200 OK
+                }
+                else
+                {
+                    // Đăng ký thất bại (ví dụ: Email đã tồn tại, mật khẩu yếu)
+                    _response.IsSuccess = false;
+                    _response.Notification = "Đăng ký thất bại";
+                    _response.Data = result.Errors; // Trả về các lỗi chi tiết
+                    return BadRequest(_response); // Trả về HTTP 400 Bad Request
+                }
+            }
+            catch (Exception ex)
+            {
+                // Xử lý lỗi ngoại lệ chung (ví dụ: lỗi kết nối database)
+                _response.IsSuccess = false;
+                _response.Notification = "Lỗi";
+                _response.Data = ex.Message; // Trả về thông báo lỗi chi tiết
+                return BadRequest(_response); // Trả về HTTP 400 Bad Request
+            }
+        }
+
+        [HttpPost("Login")]
+        public async Task<IActionResult> Login([FromBody] LoginRequest loginRequest)
+        {
+            try
+            {
+                // 1. Lấy thông tin Email và Password từ request
+                var email = loginRequest.Email;
+                var password = loginRequest.Password;
+
+                // 2. Tìm kiếm người dùng theo Email
+                var user = await _userManager.FindByEmailAsync(email);
+
+                // 3. Kiểm tra: người dùng có tồn tại KHÔNG VÀ mật khẩu có đúng KHÔNG
+                if (user != null && await _userManager.CheckPasswordAsync(user, password))
+                {
+                    // Đăng nhập thành công
+                    _response.IsSuccess = true;
+                    _response.Notification = "Đăng nhập thành công";
+                    _response.Data = user; // Trả về thông tin người dùng
+                    return Ok(_response); // Trả về HTTP 200 OK
+                }
+                else
+                {
+                    // Đăng nhập thất bại (sai email hoặc mật khẩu)
+                    _response.IsSuccess = false;
+                    _response.Notification = "Đăng nhập thất bại";
+                    _response.Data = null;
+                    return BadRequest(_response); // Trả về HTTP 400 Bad Request
+                }
+            }
+            catch (Exception ex)
+            {
+                // Xử lý lỗi ngoại lệ chung
+                _response.IsSuccess = false;
+                _response.Notification = "Lỗi";
+                _response.Data = ex.Message;
+                return BadRequest(_response); // Trả về HTTP 400 Bad Request
             }
         }
 
@@ -263,7 +389,8 @@ namespace Lab2.Controllers
                     DateTime now = DateTime.Now;
                     user.OTP = $"{stringOTP}_used_" + now.ToString("yyyy_MM_dd_HH_mm_ss");
 
-                    var passwordHasher = new PasswordHasher<IdentityUser>();
+                    // ✅ SỬA: Dùng PasswordHasher<ApplicationUser>
+                    var passwordHasher = new PasswordHasher<ApplicationUser>();
                     user.PasswordHash = passwordHasher.HashPassword(user, resetPasswordDTO.NewPassword);
 
                     var result = await _userManager.UpdateAsync(user);

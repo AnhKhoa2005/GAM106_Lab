@@ -1,1 +1,3 @@
 wwwroot\uploads\avatars\001.png
+wwwroot\uploads\avatars\003.png
+wwwroot\uploads\avatars\008.png
